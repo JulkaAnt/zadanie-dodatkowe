@@ -1,7 +1,7 @@
 import { dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { defineConfig } from 'vite'
-import { glob } from 'node:fs/promises'
+import { globSync } from 'node:fs/promises'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
